@@ -9,12 +9,11 @@ php5.3以上
 
 ## Installation
 
-```
+```sh
 git clone git://github.com/egmc/dscheck.git
 cd dscheck
 curl -s https://getcomposer.org/installer | php
 php composer.phar install
-
 ```
 
 ## Config
