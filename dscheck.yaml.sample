@@ -1,0 +1,13 @@
+silent_mode: false
+result_file_path: tmp/result.tmp
+check_list:
+ - url: http://example1.net/
+   check_string: "OK"
+   name: "example1"
+ - url: http://example2.net/
+   check_string: "OK"
+   name: "example2"
+mail_to_list:
+ - aaa@example.net
+ - aaa2@example.net
+mail_from: noftification@example3.net
